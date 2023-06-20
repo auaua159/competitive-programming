@@ -1,35 +1,44 @@
-#include<bits/stdc++.h>
+#include <bits/stdc++.h>
 using namespace std;
-
-typedef int_fast64_t int64;
-typedef int_fast32_t int32;
-#define REP(i,m,n) for(int64 i=(m);i<(n);i++)
-#define rep(i,n) REP(i,0,n)
-#define RREP(i,m,n) for(int64 i=(m);i>=(n);i--)
+#define int long long
+#define REP(i, m, n) for (int i = (m); i < (n); i++)
+#define rep(i, n) REP(i, 0, n)
 #define pb push_back
-#define all(a) a.begin(),a.end()
-#define rall(c) (c).rbegin(),(c).rend()
+#define all(a) a.begin(), a.end()
+#define rall(c) (c).rbegin(), (c).rend()
+#define mp make_pair
+#define endl '\n'
+// #define vec vector<ll>
+// #define mat vector<vector<ll> >
 #define fi first
 #define se second
-#define ANS(N) cout << (N) << '\n'; 
-typedef pair<int32,int32> pii;
-typedef pair<int64,int64> pll;
-const int32 INF=1e9+7;
-const int32 MOD=998244353;
-const int64 LLINF=2e18+9;
+#define double long double
+typedef long long ll;
+typedef unsigned long long ull;
+typedef pair<ll, ll> pll;
+// typedef long double ld;
+typedef complex<double> Complex;
+const ll INF = 1e9 + 7;
+const ll MOD = 998244353;
+const ll inf = INF * INF;
+const ll mod = MOD;
+const ll inv2 = 499122177;
+const ll MAX = 200010;
+const double PI = acos(-1.0);
+typedef vector<vector<ll>> mat;
+typedef vector<ll> vec;
 
-template<class T> inline bool chmax(T& a, T b){
-    if (a < b) { a = b; return true; } return false;
-}
-template<class T> inline bool chmin(T& a, T b){
-    if (a > b) { a = b; return true; } return false;
+ll dx[] = {1, 1, 1, 0, -1, -1, -1, 0};
+ll dy[] = {1, 0, -1, -1, -1, 0, 1, 1};
+
+void solve()
+{
+    　
 }
 
-void solve(){
-}
-
-signed main(){
-    //cin.tie(0);
-    //ios::sync_with_stdio(false);
+signed main()
+{
+    // cin.tie(0);
+    // ios::sync_with_stdio(false);
     solve();
 }
